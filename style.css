@@ -28,12 +28,33 @@ h1{
 }
 
 section{
-    height:500px;
+    height:900px;
 }
 
 .link-button{    
     text-decoration: none;
     padding: 10px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,  lightsalmon, tomato);
+    font-weight: 500;
+    color: white;
+}
+
+.half-width-2{
+    width:40%;
+    float: right;
+    margin-right: 5%;
+    padding-right: 2%;
+}
+
+.half-width-2 img{
+    width:100%;
+
+}
+
+.portfolio-button{
+    text-decoration: none;
+    padding: 10px 40px;
     border-radius: 5px;
     background-image: linear-gradient(45deg,  lightsalmon, tomato);
     font-weight: 500;
